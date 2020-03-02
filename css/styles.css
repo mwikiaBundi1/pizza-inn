@@ -1,15 +1,7 @@
 .logos {
     margin: 20px;
 }
-    .top {
-        background-color: grey;
-        font-family: "Literata", serif;
-        color: gray;
-        display: flex;
-        justify-content: space-evenly;
-        padding: 20px;
-        width: 100%;
-      
+  
   }
   .button1 {
     text-align: right;
