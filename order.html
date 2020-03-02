@@ -1,0 +1,191 @@
+
+    <!DOCTYPE html>
+    <html>
+    
+    <head>
+        <meta charset="utf-8" />
+        <title>Pizza inn</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+    
+    </head>
+    
+    <body>
+        <div class="top">
+            <div class="logos">
+                <img src="imgs/3d4929d289ad98ad71637d5c257d2f08-pizza-logo-1-by-vexels (1).png" height="70" width="100">
+            </div>
+            <h1>
+                pizzas
+            </h1>
+            <div class="button2">
+                <a href="index.html"><button type="button" class="btn btn-primary" id="checkout">Home</button></a>
+            </div>
+        </div>
+        <div class="container">
+            <div id= "background">
+            <div class="row ">
+                <div class="col-md-12">
+                    <form>
+                        <div class="form-group">
+<label for="exampleFormControlSelect1"><b>PIZZA SIZE</b></label><br>
+<!-- <form action="/action_page.php"> -->
+  <input type="radio" id="Small" name="size" value="Small">
+  <label for="small">Small</label><br>
+  <input type="radio" id="Medium" name="size" value="Medium">
+  <label for="medium">Medium</label><br>
+  <input type="radio" id="Large" name="size" value="Large">
+  <label for="large">Large</label>
+</form>
+                            <!-- <label for="exampleFormControlSelect1">Pizza Size</label>
+                            <select class="form-control size" id="size">
+                                <option selected></option>
+                                <option>Small</option>
+                                <option>Medium</option>
+                                <option>Large</option>
+                            </select> -->
+                        </div>
+
+                        <div class="form-group">
+                            <label for="exampleFormControlSelect2"><b>PIZZA CRUST</b></label><br>
+                            <!-- <select class="form-control crust" id="crust">  -->
+                         <input type="radio" id="Stuffed crust" name="crust" value="Stuffed Crust">
+                        <label for="stuffed crust">Stuffed Crust</label><br>
+                        <input type="radio" id="Thick Crust" name="crust" value="Thick Crust">
+                        <label for="thick crust">Thick Crust</label><br>
+                        <input type="radio" id="Filled Crust" name="crust" value="Filled Crust">
+                        <label for="filled crust">Filled crust</label><br>
+                        <input type="radio" id="Deep Crust" name="crust" value="Deep Crust">
+                        <label for="deep crust">Deep Crust</label><br>
+                        <input type="radio" id="Pan Crust" name="crust" value="Pan Crust">
+                        <label for="pan crust">Pan Crust</label><br>
+                        <input type="radio" id="Thin Crust" name="crust" value="Thin Crust">
+                        <label for="thin crust">Thin Crust</label>
+                       </form> 
+                        <!-- <div class="form-group">
+                            <label for="exampleFormControlSelect2">Crust</label>
+                            <select class="form-control crust" id="crust">
+                                <option selected></option>
+                                <option>Stuffed Crust</option>
+                                <option>Thick Crust</option>
+                                <option>Cheese Filled Crust </option>
+                                <option>Deep Crust</option>
+                                <option>Pan Crust</option>
+                                <option>Thin Crust</option>
+                            </select> -->
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlSelect3"><b>TOPPINGS</b></label>
+                            <select class="form-control toppings" id="toppings">
+                                <option selected></option>
+                                <option>Mushrooms, onions, peperoni</option>
+                                <option>cheese, sausage, shrimp</option>
+                                <option>spinanch, blackpeppers,blackolives</option>
+                                <option>mincedbeef, tomatosauce,red pepper</option>
+                                <option>artichoke,ricorta,crispy</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="number">Amount</label>
+                            <input type="number" class="form-control" id="num" min="1" value="1">
+                        </div>
+                        <div class="form-group">
+                            <label for="comment">Write your message here.</label>
+                            <textarea class="form-control comment" placeholder="" rows="4" id="comment"></textarea>
+                        </div>
+    
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <form>
+                        <div class="form-group">
+                            <button type="button" class="btn btn-primary order" id="order"> Complete Order</button>
+                        </div>
+                        <div class="form-group">
+                            <button type="button" class="btn btn-primary" id="chooseDeliver">Deliver</button>
+                            <button type="button" class="btn btn-primary" id="chooseReservation">Reservation</button>
+                        </div>
+                    </form>
+                    <div id="deliver">
+                        <h5>Enter your location:</h5>
+                        <form class="form-inline">
+                            <div class="form-group">
+                                <select class="form-control mb-2 mr-sm-2" id="area">
+                                    <option selected>Choose your location...</option>
+                                    <option>Wendani</option>
+                                    <option>Kabete</option>
+                                    <option>Moringa</option>
+                                    <option>Uchumi</option>
+                                    <option>Kabare</option>
+                                    <option>Kilwa</option>
+                                    <option>Likoni</option>
+                                    <option>Kikuyu</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control mb-2 mr-sm-2" id="street"
+                                    placeholder="Input Location Details...">
+                            </div>
+                            <div class="form-group">
+                                <button type="button" class="btn btn-primary mb-2 mr-sm-2" 2
+                                    id="submitDeliver">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div id="reserve">
+                        <h5>Enter your name and table size:</h5>
+                        <form class="form-inline">
+                            <div class="form-group">
+                                <input type="text" class="form-control mb-2 mr-sm-2" id="Name"
+                                    placeholder="Enter your full Name">
+                            </div>
+                            <div class="form-group">
+                                <input type="number" class="form-control mb-2 mr-sm-2" id="numreserve" min="1" max="10"
+                                    value="1">
+                            </div>
+                            <div class="form-group">
+                                <button type="button" class="btn btn-primary mb-2 mr-sm-2" id="submitRes">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                    <button type="button" class="btn btn-primary" id="checkout">Checkout</button>
+                    <div class="background">
+                        <div id="summary">
+                            <div class="sum">
+                                <h5>Order:</h5>
+                                <ol id="ordered">
+    
+                                </ol>
+                            </div>
+                            <div class="sum">
+                                <h5>Price:</h5>
+                                <ol id="prices">
+    
+                                </ol>
+                            </div>
+                        </div>
+                        <h5 class="grandprice">Your total price is:</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <footer class="page-footer font-small blue pt-4">
+    
+            <div class="footer-copyright text-center py-3">© 2019 Copyright:
+                Pizzas
+            </div>
+    
+        </footer>
+
+        <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+    </body>
+    
+    </html>
+                          
+    

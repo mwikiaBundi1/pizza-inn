@@ -1,0 +1,51 @@
+.logos {
+    margin: 20px;
+}
+    .top {
+        background-color: grey;
+        font-family: "Literata", serif;
+        color: gray;
+        display: flex;
+        justify-content: space-evenly;
+        padding: 20px;
+        width: 100%;
+      
+  }
+  .button1 {
+    text-align: right;
+    margin: 20px;
+  }
+  .head {
+    background-image: url("../imgs/pexels-photo-375467.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    justify-content: space-around;
+  }
+  h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: whitesmoke;
+    margin: 20px;
+  }
+  h3 {
+    text-transform: uppercase;
+    text-align: center;
+    color: darkblue;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 20px;
+  }
+  footer {
+    text-align: center;
+    background-color: grey;
+    color: whitesmoke;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    margin-top: 10px;
+  }
+  #here {
+    background-color: bisque;
+    position: absolute;
+  }
+  #background{
+    background-color:burlywood;
+  }
